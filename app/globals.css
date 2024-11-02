@@ -39,7 +39,14 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 }
-
+.gallery-card .gallery-img img {   /* By nishant */
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  /* object-fit: contain; */
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -87,12 +94,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {

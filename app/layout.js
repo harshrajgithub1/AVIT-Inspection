@@ -1,5 +1,15 @@
+"use Client";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "../public/assets/css/bootstrap.min.css";
+import "../public/assets/css/fontawesome.min.css";
+import "../public/assets/css/magnific-popup.min.css";
+import "../public/assets/css/swiper-bundle.min.css";
+import "../public/assets/css/style.css";
+import Header from "./components/HEADER/HEADER";
+import Footer from "./components/FOOTER/FOOTER";
+
+import Home from "./page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +21,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      <Header/>
+      {/* <Home/> */}
+      {children}
+      <Footer/>
+      </body>
     </html>
   );
 }
