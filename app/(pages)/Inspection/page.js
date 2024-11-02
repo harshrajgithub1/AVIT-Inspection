@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import Sidebar from "@/app/components/SIDEBAR/SIDEBAR";
+import Sidebar from "@/app/components/sidebar";
 const Inspection = () => {
   return (
     <>

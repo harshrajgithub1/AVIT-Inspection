@@ -38,7 +38,7 @@ const Service = () => {
               <h2 className="h3 page-title">Web Development</h2>
               <p>
                 Globally optimize highly efficient solution whereas open-source
-                application. Completely strategize quality internal or "organic"
+                application. Completely strategize quality internal or organic
                 sources for virtual e-business. Phosfluorescently re-engineer
                 enterprise markets via value-added networks. Seamlessly restore
                 inexpensive e-markets vis-a-vis corporate intellectual capital.
