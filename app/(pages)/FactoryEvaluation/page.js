@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import Sidebar from "../../components/SIDEBAR/SIDEBAR";
+import Sidebar from "@/app/components/SIDEBAR/SIDEBAR";
 const FactoryEvaluation = () => {
   return (
     <>
