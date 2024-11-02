@@ -91,7 +91,6 @@ const Footer = () => {
               <div className="col-lg-6">
                 <p className="copyright-text">
                   Copyright <i className="fal fa-copyright" /> 2024{" "}
-                  <a href="https://themeforest.net/user/themeholy">Themeholy</a>.
                   All Rights Reserved.
                 </p>
               </div>

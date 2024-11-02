@@ -102,11 +102,17 @@ const Home = () => {
                   navigation
                   pagination={{ clickable: true }}
                   scrollbar={{ draggable: true }}
+                  breakpoints={{
+                    0: { slidesPerView: 1 },       // Full width on small screens
+                    768: { slidesPerView: 2 },     // 2 slides on medium screens
+                    992: { slidesPerView: 3 },     // 3 slides on larger screens
+                    1200: { slidesPerView: 3 },    // 4 slides on extra large screens
+                  }}
                   onSwiper={(swiper) => console.log(swiper)}
                   onSlideChange={() => console.log("slide change")}
                 >
                   <SwiperSlide>
-                    <div className="swiper-slide">
+                    <div className="swiper-slide  sm:w-full md:w-auto">
                       <div className="service-grid">
                         <div className="service-grid_icon">
                           <img
@@ -400,6 +406,12 @@ const Home = () => {
               navigation
               pagination={{ clickable: true }}
               scrollbar={{ draggable: true }}
+              breakpoints={{
+                0: { slidesPerView: 1 },       // Full width on small screens
+                768: { slidesPerView: 2 },     // 2 slides on medium screens
+                992: { slidesPerView: 3 },     // 3 slides on larger screens
+                1200: { slidesPerView: 3 },    // 4 slides on extra large screens
+              }}
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}
             >
