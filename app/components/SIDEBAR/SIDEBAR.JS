@@ -54,7 +54,7 @@ const Sidebar = () => {
                     </Link>
                   </div>
                 </div>
-              </aside>
+              </aside> 
     </>
   );
 };
